@@ -1,0 +1,187 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-shadow: 16px 20px 20px rgba(3, 61, 53, 0.3);
+    background-color: #01080e;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+nav ul li:hover {
+    border-color: #032841;
+    background-image: linear-gradient(to right, #1e90ff, #970a4c);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(3, 208, 235);
+    font-size: 48px;
+}
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #050016;
+    text-decoration-style: solid;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    background-color: #84f0f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    background-color: aqua;
+}
+h1 {
+    border: 2px solid #4aadf0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #ebf8fc;
+}
+p {
+    color: #012130;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+#work {
+    background-color: #f4f4f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    text-align: center;
+}
+#work h2.mes.projets {
+    font-size: 2em;
+    color: #333;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 20px;
+}
+
+#work p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#work ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#work ul li {
+    margin: 15px 0;
+}
+
+#work ul li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #0066cc;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Effet au survol des liens */
+#work ul li a:hover {
+    background-color: #0066cc;
+    color: white;
+}
+#resume {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#resume h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+table th,
+table td {
+    padding: 12px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f0f8ff;
+}
+
+table td {
+    color: #555;
+}
+footer {
+    background-color: #9ceed9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgb(157, 233, 233);
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer p:hover {
+    color: #fc0909;
+    transition: color 0.3s ease;
+}
+ul {
+    list-style-type: none; /
+}
+
+ul li {
+    background-color: #f4f4f4; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    margin: 5px 0; 
+    padding: 10px; 
+    font-size: 16px; 
+    color: #333; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+ul li:hover {
+    background-color: #007bff; /
+    color: white; 
+    transform: scale(1.05);
+}
+
+ul li::before {
+    content: "→ "; 
+    color: #007bff;
+}

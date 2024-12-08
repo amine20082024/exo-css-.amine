@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="amine.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h1 class="mon cv">Mon portfolio</h1>
+                <video controls>
+                    <source src="video/intro.mp4" type="video/mp4" />
+                    vidéo introuvable .
+                </video>
+            </section>
+
+            <section id="about">
+                <h2>À propos de moi</h2>
+                <p>
+                    Développeur passionné et rigoureux, avec 2 années d'expérience dans la
+                    conception et le développement d'applications et de solutions logicielles.
+                    Maîtrise de [langages de programmation utilisés : JavaScript, Python, Java,
+                    etc.], ainsi que des frameworks et outils associés. Expertise dans la création
+                    de solutions performantes et évolutives, en mettant l'accent sur l'optimisation
+                    du code, la qualité du produit et l'expérience utilisateur. Capacité à
+                    travailler en équipe, à comprendre les besoins des clients et à fournir des
+                    solutions techniques adaptées. Toujours à la recherche de nouvelles technologies
+                    pour améliorer mes compétences et proposer des innovations.
+                </p>
+                <ul>
+                    <li>Compétences : HTML, CSS, JavaScript</li>
+                    <li>Passions : Programmation, Design UX, Photographie</li>
+                </ul>
+            </section>
+            <section id="work">
+                <h2 class="mes projets">Mes réalisations</h2>
+                <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
+                <ul>
+                    <li><a href="projets/site1.html">Site e-commerce</a></li>
+                    <li><a href="projets/portfolio.html">Portfolio interactif</a></li>
+                    <li><a href="projets/app.html">Application mobile</a></li>
+                </ul>
+            </section>
+
+            <section id="resume">
+                <h2>Expérience</h2>
+                <table borde="2">
+                    <thead>
+                        <tr>
+                            <th>Année</th>
+                            <th>Expérience</th>
+                            <th>Entreprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2017-2018</td>
+                            <td>vendeur a belfort</td>
+                            <td>belfore game</td>
+                        </tr>
+                        <tr>
+                            <td>2018-2019</td>
+                            <td>marchandiseur</td>
+                            <td>groupe CAB amor benamore</td>
+                        </tr>
+                        <tr>
+                            <td>2019-2020</td>
+                            <td>contrôle qualité des produits pharmaceutiques</td>
+                            <td>laboratoire frater razes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="contact">
+                <h2>Contactez-moi</h2>
+                <form action="contact.php" method="POST">
+                    <div>
+                        <label for="name">Nom et prenom :</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy;Madi Mohamed Amine</p>
+        </footer>
+    </body>
+</html>
